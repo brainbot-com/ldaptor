@@ -10,3 +10,5 @@
 /doc/addressbook-ldif
 /doc/*.dia.png
 /ldaptor/test/ldif/webtests.tmp
+/dist/
+/MANIFEST
