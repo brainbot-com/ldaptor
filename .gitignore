@@ -12,3 +12,5 @@
 /ldaptor/test/ldif/webtests.tmp
 /dist/
 /MANIFEST
+/hgdistver-0.17-py2.7.egg
+*.egg-info/
