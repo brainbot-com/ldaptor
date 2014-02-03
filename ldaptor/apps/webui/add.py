@@ -269,7 +269,7 @@ class AddForm(configurable.Configurable):
         changes = []
         for k,v in kw.items():
             if hasattr(self, "nonUserEditableAttributeType_"+k):
-                raise "Can't set attribute %s when adding." % k
+                raise Exception("Can't set attribute %s when adding." % k)
             elif k[:len("add_")]=="add_":
                 if not v:
                     continue
